@@ -10,10 +10,26 @@
   },
   "links": [
     {
-      "name": "News",
-      "url": "http://cnn.com",
-      "icon": "News",
-      "key": "key7"
-    }
+      "name": "Deskop",
+      "url": "http://example.com",
+      "key": "key3",
+      "isExpanded": "true"
+      },
+      {
+        "name": "Downloads",
+        "url": "http://msn.com",
+        "key": "key4"
+      },
+      {
+        "name": "Documents",
+      "url": "http://msn.com",
+      "key": "key5",
+      "disabled": true
+      },
+      {
+      "name": "Pictures",
+      "url": "http://msn.com",
+      "key": "key6"
+      }
   ]
 }
