@@ -7,5 +7,13 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "links": [
+    {
+      "name": "News",
+      "url": "http://cnn.com",
+      "icon": "News",
+      "key": "key7"
+    }
+  ]
 }
