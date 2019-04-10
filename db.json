@@ -12,8 +12,7 @@
     {
       "name": "Deskop",
       "url": "/page=1",
-      "key": "key3",
-      "isExpanded": "true"
+      "key": "key3"
       },
       {
         "name": "Downloads",
@@ -23,8 +22,7 @@
       {
         "name": "Documents",
       "url": "/page=3",
-      "key": "key5",
-      "disabled": true
+      "key": "key5"
       },
       {
       "name": "Pictures",
