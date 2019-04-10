@@ -11,24 +11,24 @@
   "links": [
     {
       "name": "Deskop",
-      "url": "http://example.com",
+      "url": "/page=1",
       "key": "key3",
       "isExpanded": "true"
       },
       {
         "name": "Downloads",
-        "url": "http://msn.com",
+        "url": "/page=2",
         "key": "key4"
       },
       {
         "name": "Documents",
-      "url": "http://msn.com",
+      "url": "/page=3",
       "key": "key5",
       "disabled": true
       },
       {
       "name": "Pictures",
-      "url": "http://msn.com",
+      "url": "/page=4",
       "key": "key6"
       }
   ]
