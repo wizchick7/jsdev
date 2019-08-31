@@ -1,6 +1,9 @@
 const express = require('express');
 const config = require('./config');
 
+const express = require('express');
+const config = require('./config');
+
 // express is a minimal node.js web app framework to develop
 // web and mobile apps. Core features include
 // 1. allows to set up a middlewares to responde to HTTP requests
@@ -25,5 +28,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(config.port, () => {
-  console.info(`Running on ${config.port}`);
+  console.info(`Running on ${config.port}...`);
 });
