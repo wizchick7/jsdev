@@ -5,6 +5,18 @@
     <title>Advanced React Application Example</title>
   </head>
   <body>
-    <h2> Hello Express and EJS -- <%= answer %></h2>
+    <div id="root">
+      Loading
+    </div>
+    <!-- Practice today is to include only a single script
+      e.g. bundled.js. To do this, you can use webpack to bundled
+      the entire application into that single file
+      According to webpack.js/org/concepts, it is a static module bundler
+      for js apps. when webpack processes your app it internally builds
+      a dependency graph which maps every module your project needs
+      and generates one or more bundles
+    -->
+    <script src="bundle.js" charset="utf-8">
+    </script>
   </body>
 </html>

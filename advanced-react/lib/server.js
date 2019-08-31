@@ -1,8 +1,17 @@
-const express = require('express');
-const config = require('./config');
+//const express = require('express');
+//const config = require('./config');
 
-const express = require('express');
-const config = require('./config');
+// BABEL makes it possible to ue the import syntax as opposed to the
+// required sytax (above). It also help the server (node) understand
+// the JSX syntax
+// From babeljs.io/docs,
+// Babel is a javascript compiler
+// It is a toolchain that is mainly used to convert ECMAScript 2015+ into a
+// backwards comptabile version of Javascript in current or older browsers or
+// environments
+import express from 'express';
+import config from './config';
+// babel presents or plugins allow babel to parse specific types of syntax
 
 // express is a minimal node.js web app framework to develop
 // web and mobile apps. Core features include
@@ -28,5 +37,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(config.port, () => {
-  console.info(`Running on ${config.port}...`);
+  console.info(`Running on ${config.port}`);
 });
